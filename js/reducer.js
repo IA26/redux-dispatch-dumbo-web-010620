@@ -7,7 +7,7 @@ function changeState(state, action){
   }
 }
 
-let state = {count: 0}
+let state = {count: 1}
 let action = {type: 'INCREASE_COUNT'}
 
 changeState(state, action)
